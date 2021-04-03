@@ -139,7 +139,9 @@ export class SubscriptionData<
   private completeSubscription() {
     const { onSubscriptionComplete } = this.getOptions();
     if (onSubscriptionComplete) onSubscriptionComplete();
-    this.endSubscription();
+    // We have to defer this endSubscription call, because otherwise multiple
+    // subscriptions for the same component will cause infinite rendering.
+    Promise.resolve().then(() => this.endSubscription());
   }
 
   private endSubscription() {
