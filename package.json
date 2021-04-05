@@ -1,6 +1,6 @@
 {
-  "name": "@apollo/client",
-  "version": "3.3.13",
+  "name": "@nuvest/apollo-client",
+  "version": "3.3.13-relaystylepaginationfix",
   "description": "A fully-featured caching GraphQL client.",
   "private": true,
   "keywords": [
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollographql/apollo-client.git"
+    "url": "git+https://github.com/nuvest/apollo-client.git"
   },
   "bugs": {
     "url": "https://github.com/apollographql/apollo-client/issues"
