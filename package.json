@@ -1,6 +1,6 @@
 {
   "name": "@nuvest/apollo-client",
-  "version": "3.3.13-relaystylepaginationfix",
+  "version": "3.3.13-relaystylepaginationfix-2",
   "description": "A fully-featured caching GraphQL client.",
   "private": true,
   "keywords": [
